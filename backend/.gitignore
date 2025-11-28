@@ -1,0 +1,7 @@
+__init__.py
+*.cfg
+*.Lib
+resume/Lib/site-packages
+resume/Scripts
+__pycache__/main.cpython-310.pyc
+.env
