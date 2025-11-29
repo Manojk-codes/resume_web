@@ -21,13 +21,6 @@ Interactive Game: Includes a fully functional "Flappy Developer" game built with
 Clear Contact Information: Easy access to email, LinkedIn, and resume download.
 
 🛠️ Technologies Used
-
-Category
-
-Technology
-
-Purpose
-
 Frontend
 
 HTML5, JavaScript
@@ -45,3 +38,16 @@ Architecture
 GenAI Concepts
 
 RAG, Embeddings, LLMs, Tool-Calling, FastAPI Microservices
+
+backend
+Python
+
+Run Backend server :uvicorn main:app --reload
+run frontend : npm run dev/
+pip install -r requirements.txt
+
+
+Serving at: http://127.0.0.1:8000                  
+API docs: http://127.0.0.1:8000/docs
+Running in development mode, for production use:   
+fastapi run  
